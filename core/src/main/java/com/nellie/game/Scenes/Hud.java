@@ -23,7 +23,7 @@ public class Hud implements Disposable {
     private static Integer score;  // Очки игрока.
 
     private Label countdownLabel;  // Метка для отображения времени.
-    private static Label scoreLabel;  // Метка для отображения очков.
+    static Label scoreLabel;  // Метка для отображения очков.
     private Label timeLabel;  // Метка для надписи "TIME".
     private Label levelLabel;  // Метка для уровня (например, 1-1).
     private Label worldLabel;  // Метка для надписи "WORLD".
